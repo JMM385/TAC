@@ -1,2 +1,6 @@
 pandas
 numpy
+bokeh
+scipy
+matplotlib
+seaborn
