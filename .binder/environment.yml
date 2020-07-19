@@ -5,8 +5,7 @@ dependencies:
 - scipy
 - matplotlib
 - seaborn
-- conda-env-conda install
-- conda install: 
+- conda-env-conda install:
   - nbserverproxy
   - jupyter-server-proxy
   
