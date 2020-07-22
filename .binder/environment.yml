@@ -1,5 +1,4 @@
 dependencies:
-- dirpath
 - pandas
 - numpy
 - bokeh
