@@ -6,6 +6,7 @@
 
 # Librerías
 from os.path import join, dirname
+import pathlib
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,8 +24,8 @@ from bokeh.plotting import figure
 
 # In[3]:
 
-topo = pd.read_csv(join(dirname(__file__), 'Topografia_AyV.csv'))
-I_t = pd.read_csv(join(dirname(__file__), 'HidrogramaDeEntrada.csv'))
+topo = pd.read_csv(join(dirname(__file__), 'data/Topografia_AyV.csv'))
+I_t = pd.read_csv(join(dirname(__file__), 'data/HidrogramaDeEntrada.csv'))
 
 # topo = pd.read_csv('Topografia_AyV.csv')
 # I_t = pd.read_csv('HidrogramaDeEntrada.csv')
