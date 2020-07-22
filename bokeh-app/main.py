@@ -296,7 +296,7 @@ source = ColumnDataSource(data={'t' : df['t'],
 
 # Sliders
 slider_1 = Slider(start=20, end=70, value=50, step=5, title='Altura de la Presa [m]') #Slider altura de presa
-slider_2 = Slider(start=20, end=slider_1.value, value=40, step=5, title='Nivel Inicial de Embalse [m]') #Slider nivel inicial de embalse
+slider_2 = Slider(start=20, end=70, value=40, step=5, title='Nivel Inicial de Embalse [m]') #Slider nivel inicial de embalse
 slider_3 = Slider(start=10, end=300, value=B, step=5, title='Largo del vertedero [m]') #Slider ancho de vertedero
 
 
