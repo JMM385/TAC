@@ -5,6 +5,7 @@ dependencies:
 - scipy
 - matplotlib
 - seaborn
+- shapely
 - pip
 - pip:
   - nbserverproxy
